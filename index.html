@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Made By Syx0n</title>
+  </head>
+  <body class="flex flex-col">
+    <!-- Rebirth BUTTONS -->
+    <h1 id="MoneyText" class="bg-green-400 border-3 font-[550] rounded-lg w-32 text-center text-2xl mb-3 py-2">Cash: $0</h1>
+    <div class="flex flex-column border-3 rounded-xl justify-center align-center" id="Game">
+      <div class="flex flex-col justify-center items-center gap-4 rounded-l-lg w-48 bg-amber-400" id="RebirthTab">
+          <button type="button" class="w-24 h-12 bg-blue-400 text-white rounded-lg text-xl font-sans font-bold" id="Rebirth">Rebirth</button>
+      </div>
+      <canvas id="canvas"></canvas>
+      <!-- Shop BUTTONS -->
+       <!-- SLOT 1 -->
+      <div class="flex flex-row">
+        <div class="flex flex-col justify-center items-center w-64 bg-blue-400" id="ShopTab">
+          <img class="w-16 h-16" src="/gameassets/ballstrike.png">
+          <h1 class="text-xl font-bold">Mevlana Strike</h1>
+          <h1 id="_BallStrikeLevel" class="text-xl font-bold">Level: 0</h1>
+          <button id="BallStrike" class="flex items-center justify-center w-32 h-12 text-xl font-sans font-bold bg-green-500 rounded-xl my-3 text-center">Price: $10</button>
+          <img class="w-16 h-16" src="/gameassets/waterball.png">
+          <h1 class="text-xl font-bold">Water Pressure</h1>
+          <h1 id="_WaterPressureLevel" class="text-xl font-bold">Level: 0</h1>
+          <button id="WaterPressure" class="flex items-center justify-center w-32 h-12 text-xl font-sans font-bold bg-green-500 rounded-xl my-3 text-center">Price: $250</button>
+        </div>
+        <!-- SLOT 2 -->
+        <div class="flex flex-col justify-center items-center rounded-r-lg w-64 bg-blue-400" id="ShopTab">
+          <img class="w-16 h-16" src="/gameassets/dice.png">
+          <h1 class="text-xl font-bold">Lucky Hit</h1>
+          <h1 id="_LuckyHitLevel" class="text-xl font-bold">Level: 0</h1>
+          <button id="LuckyHit" class="flex items-center justify-center w-32 h-12 text-xl font-sans font-bold bg-green-500 rounded-xl my-3 text-center">Price: $25000</button>
+          <img class="w-16 h-16" src="/gameassets/ascend.png">
+          <h1 class="text-xl font-bold">Honor Of Sensei</h1>
+          <h1 class="text-xl font-bold">Level: 0</h1>
+          <button id="HonorOfSensei" class="flex items-center justify-center w-32 h-12 text-xl font-sans font-bold bg-green-500 rounded-xl my-3 text-center">Price: $1M</button>
+        </div>
+      </div>
+      
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
