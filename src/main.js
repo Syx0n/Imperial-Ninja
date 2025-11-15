@@ -31,7 +31,7 @@ let monsterImage = document.createElement('img')
 monsterImage.src = '/gameassets/monster.png'
 
 window.onload = function(){
-  let Money = 2500000
+  let Money = 0
   let BallStrikePrice = 10
   let BallStrikeLevel = 0
   let WaterPressurePrice = 250
