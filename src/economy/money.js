@@ -63,7 +63,7 @@ export function HonorOfSenseiBuy(price, money, element) {
     money -= price
     element.style.display = 'block'
     element.style.position = 'absolute'
-    element.style.top = '500px' // aşağıdan başlasın
+    element.style.top = '500px'
     element.style.left = '0'
     
     let y = window.innerHeight

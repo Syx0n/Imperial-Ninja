@@ -31,6 +31,7 @@ let monsterImage = document.createElement('img')
 monsterImage.src = '/gameassets/monster.png'
 
 window.onload = function(){
+
   let Money = 0
   let BallStrikePrice = 10
   let BallStrikeLevel = 0
@@ -54,7 +55,6 @@ window.onload = function(){
 
   console.log(WaterPressure)
 
-  // Satın alma Tetiklendiğinde
   BallStrike.onclick = ()=>{
     const result = BallStrikeBuy(BallStrikePrice,Money,Multiplier,BallStrikeLevel)
     Money = result.Money
