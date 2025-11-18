@@ -123,7 +123,7 @@ window.onload = function(){
         } else {
           Money = addMoney(Money, Multiplier)
         }
-        Projectiles.splice(i, 1) // Mermiyi sil
+        Projectiles.splice(i, 1)
         MoneyText.textContent = `Cash: $${Money.toString()}`
       }
     }

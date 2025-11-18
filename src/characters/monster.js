@@ -1,4 +1,4 @@
-import { ctx } from '../main'  // Import et
+import { ctx } from '../main'
 
 export default class monster {
     constructor(image,x,y){

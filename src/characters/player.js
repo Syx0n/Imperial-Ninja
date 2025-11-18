@@ -1,4 +1,4 @@
-import { ctx } from '../main'  // Import et
+import { ctx } from '../main'
 
 export default class player {
     constructor(image,x,y){

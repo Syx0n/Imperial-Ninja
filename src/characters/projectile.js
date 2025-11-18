@@ -1,5 +1,4 @@
-import { ctx } from '../main'  // Import et
-
+import { ctx } from '../main'
 export class projectile {
     constructor(x,y,radius){
       this.x = x
